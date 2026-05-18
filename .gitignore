@@ -1,0 +1,34 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.so
+
+# 虚拟环境
+venv/
+LLM_venv/
+env/
+.venv/
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Jupyter 笔记本检查点
+.ipynb_checkpoints/
+
+# 数据文件：忽略原始大文件 ratings.csv，保留 sampled_data.csv 和其他小文件
+data/ratings.csv
+# 如果要保留链接和餐馆信息，可以取消下面两行的注释（它们通常不大，可上传）
+# !data/restaurants.csv
+# !data/links.csv
+
+# 输出目录中的临时文件（可选）
+output/dianping/*.log
+output/dianping/*.tmp
