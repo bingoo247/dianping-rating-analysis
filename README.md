@@ -15,8 +15,8 @@
 .
 ├── data/                        # 数据目录
 │   ├── sampled_data.csv          # 已清洗的采样数据（15万条），可直接用于绘图
-│   ├── restaurants.csv           # 餐馆信息（需自行下载）
-│   ├── links.csv                 # 餐馆ID映射（需自行下载）
+│   ├── restaurants.csv           # 餐馆信息
+│   ├── links.csv                 # 餐馆ID映射
 │   └── ratings.csv               # 原始评分数据（需自行下载，约1.75GB）
 ├── output/dianping/              # 输出目录（图表与统计CSV）
 │   ├── fig1~fig7.png             # 7张高清图表
