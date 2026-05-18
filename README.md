@@ -35,7 +35,7 @@
 ## 环境配置
 1. 克隆仓库
    ```bash
-   git clone https://github.com/你的用户名/仓库名.git
+   git clone https://github.com/bingoo247/dianping-rating-analysis.git
    cd 仓库名
    ```
 2. 创建虚拟环境（推荐）
@@ -58,7 +58,7 @@ python dianping.py
 脚本会自动检测采样文件，跳过数据清洗与情感分析，直接绘图并导出统计CSV。
 
 ### 从原始数据重新处理
-1. 将下载的 `ratings.csv`、`restaurants.csv`、`links.csv` 放入 `data/` 目录。
+1. 将下载的 `ratings.csv` 放入 `data/` 目录。
 2. 运行 `python dianping.py`，脚本将执行：
    - 读取前50万条记录
    - 清洗并随机抽样15万条
@@ -78,19 +78,3 @@ python dianping.py
 - scikit-learn (回归模型)
 
 详见 `requirements.txt`。
-
-## 许可
-本项目仅用于学术研究，数据集版权归原作者及平台所有。代码部分采用 [MIT License](LICENSE)。
-
-## 引用
-如果使用了本仓库的代码或结果，请注明：
-```
-@misc{dianping-rating-analysis,
-  author = {你的姓名},
-  title = {大众点评用户评分影响因素分析},
-  year = {2026},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/你的用户名/仓库名}}
-}
-```
